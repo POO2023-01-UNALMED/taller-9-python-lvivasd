@@ -4,7 +4,7 @@ from tkinter import Tk, Button, Entry
 root = Tk()
 root.title("Calculadora POO")
 root.resizable(0,0)
-root.geometry("500x250")
+root.geometry("290x250")
 
 # Configuración eventos
 def B1(evento):
@@ -16,7 +16,7 @@ def R1(evento):
     pantalla.insert("end", operacion)
 
 # Configuración pantalla de salida 
-pantalla = Entry(root, width=40, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
+pantalla = Entry(root, width=22, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
 pantalla.grid(row=0, column=0, columnspan=4, padx=1, pady=1)
 
 # Configuración botones
